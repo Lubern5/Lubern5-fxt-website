@@ -3,6 +3,7 @@ backend:
   phases:
     build:
       commands:
+        - '# Deploy backend resources'
         - amplifyPush --simple
 frontend:
   phases:
